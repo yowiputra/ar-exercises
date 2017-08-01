@@ -15,4 +15,5 @@ puts "----------"
 
 @store1.employees.each do |employee|
   puts employee.first_name
+  puts employee.hourly_rate
 end
